@@ -1,0 +1,18 @@
+.userDropdown {
+  display: none;
+}
+
+.userDropdownBtn:hover .userDropdown {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  transition: all 1s;
+}
+
+.change {
+  background-color: rgb(0, 255, 208);
+}
+
+.new-font {
+  font-family: 'Comic Sans MS', cursive;
+}
